@@ -1,0 +1,22 @@
+.testimonials {
+  background-color: $color-main-color;
+  padding-top: 182px;
+  padding-bottom: 175px;
+}
+
+.testimonials--text {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 30px;
+  color: $color-main-white;
+  font-weight: 500;
+  font-family: $fonts-for-nav;
+}
+
+.testimonial--author {
+  text-align: center;
+  font-weight: 500;
+  font-family: $fonts-for-nav;
+  font-size: 12px;
+  color: $color-main-white;
+}

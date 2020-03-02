@@ -1,0 +1,71 @@
+.skills {
+  background-image: url(../images/bg-skills.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.skills__content {
+  display: flex;
+}
+
+.skills__one {
+  padding-top: 167px;
+  padding-bottom: 187px;
+  width: 50%;
+  position: relative;
+}
+
+.skills__two {
+  padding-top: 167px;
+  padding-bottom: 187px;
+  width: 50%;
+}
+
+.skills__tittle {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 500;
+  font-weight: $fonts-for-nav;
+}
+
+.skills__item {
+  margin-bottom: 64px;
+  font-size: 12px;
+  font-weight: 500;
+  font-weight: $fonts-for-nav;
+  font-family: $color-for-textskill;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.skills__item--design::after {
+  content: '';
+  width: 500px;
+  height: 3px;
+  position: absolute;
+  background-image: url(../images/lines/line-design.png);
+  top: 270px;
+  left: 0;
+}
+
+.skills__item--web::after {
+  content: '';
+  width: 500px;
+  height: 3px;
+  position: absolute;
+  background-image: url(../images/lines/line-web.png);
+  top: 348px;
+  left: 0;
+}
+
+.skills__item--marketing::after {
+  content: '';
+  width: 500px;
+  height: 3px;
+  position: absolute;
+  background-image: url(../images/lines/line-marketing.png);
+  top: 425px;
+  left: 0;
+}

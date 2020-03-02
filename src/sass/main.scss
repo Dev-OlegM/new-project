@@ -1,0 +1,22 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import './vars.scss';
+
+@import 'normalize.scss';
+@import 'base.scss';
+
+// UTILITIES
+@import './utilities/container.scss';
+@import './utilities/clear.scss';
+
+// COMPONENTS
+@import './components/header.scss';
+@import './components/banner.scss';
+@import './components/about.scss';
+@import './components/skills.scss';
+@import './components/numbers.scss';
+@import './components/services.scss';
+@import './components/testimonials.scss';
+@import './components/clients.scss';
+@import './components/need.scss';

@@ -1,0 +1,85 @@
+.need {
+  background-color: $color-for-services;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.need__add {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.need__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.need-width {
+  width: 320px;
+  height: 45px;
+}
+
+.need__second {
+  margin-left: 30px;
+  border: 0;
+}
+
+.input__three {
+  width: 670px;
+  height: 45px;
+  border: 0;
+}
+
+.input__textarea {
+  width: 670px;
+  height: 170px;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.need--title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  color: $color-main-text;
+}
+
+.need--description {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: $color-main-grey;
+  font-family: $fonts-for-description;
+}
+
+.input__three {
+  margin-bottom: 30px;
+  border: 0;
+}
+
+.need__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-main-color;
+  width: 180px;
+  height: 54px;
+  color: $color-main-white;
+  border: 0;
+
+  &:hover,
+  &:focus {
+    background-color: $color-main-grey;
+  }
+}
+
+.input__one {
+  border: 0;
+}
+
+.input__two {
+  border: 0;
+}

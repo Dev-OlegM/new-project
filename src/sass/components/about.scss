@@ -1,0 +1,37 @@
+.about {
+  background-color: $color-main-white;
+  padding-bottom: 190px;
+  padding-top: 100px;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about__description::after {
+  content: '';
+  position: absolute;
+  width: 220px;
+  height: 58px;
+  background-image: url(../images/about-signature.png);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 162px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 800;
+  font-family: $fonts-for-nav;
+}
+
+.about__description {
+  text-align: center;
+  font-size: 16px;
+  font-family: $fonts-for-description;
+  color: $color-main-grey;
+}

@@ -1,0 +1,34 @@
+header {
+  background-color: $color-main-white;
+}
+
+.site-header {
+  display: flex;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.site-nav__list {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-nav__link {
+  color: $color-main-text;
+  font-size: 12px;
+  font-family: $fonts-for-nav;
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    color: $color-main-color;
+  }
+}

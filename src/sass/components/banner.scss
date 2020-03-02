@@ -1,0 +1,51 @@
+.banner {
+  background-color: #e9e9e9;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/banner-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 670px;
+  padding-top: 185px;
+  padding-bottom: 200px;
+}
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  width: 474px;
+  margin-left: auto;
+}
+
+.bunner__button {
+  width: 180px;
+  height: 52px;
+  background-color: $color-main-color;
+  color: $color-main-white;
+  border: 0;
+
+  &:hover,
+  &:focus {
+    background-color: $color-main-grey;
+  }
+}
+
+.banner__text {
+  font-size: 38px;
+  color: $color-main-text;
+  font-family: $fonts-for-nav;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.banner__description {
+  font-size: 18px;
+  font-family: $fonts-for-description;
+  margin-bottom: 42px;
+  font-weight: 400;
+  color: $color-main-grey;
+}

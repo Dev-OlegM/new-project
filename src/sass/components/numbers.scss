@@ -1,0 +1,36 @@
+.numbers {
+  background-color: $color-main-color;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.numbers-item {
+  display: flex;
+}
+
+.numbers-item__icon {
+  width: 40px;
+  height: 36px;
+  fill: $color-main-white;
+  margin-right: 27px;
+}
+
+.numbers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers-description__count {
+  color: $color-main-white;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: $fonts-for-nav;
+}
+
+.numbers-description__state {
+  color: $color-main-white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: $fonts-for-nav;
+}
